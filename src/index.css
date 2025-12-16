@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+      background-color: #f0f0f0;
+}
+.container{
+    width: 30%;
+    text-align: center;
+   
+    
+}
+
+.priority{
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 5px;
+    color: #f0f0f0;
+    font-weight: bold;
+}
