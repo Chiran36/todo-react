@@ -71,7 +71,10 @@ npm install
 npm run dev
 Open in your browser at http://localhost:5173/ (or the port shown in terminal).
 
-💡 Key Learnings from This Project
+
+
+## 💡 Key Learnings from This Project
+
 
 1. Arrow Functions & Object Return: ()=>{ ...obj } is treated as a block, not an object;
    use parentheses: () => ({ ...obj })  for an object.
