@@ -59,7 +59,7 @@ Navigate to the project folder
 
  ```bash
 cd todo-react
-Install dependencies
+
 
 3. **Intalling npm**
 
@@ -68,7 +68,7 @@ npm install
 
 4.**running the project**
 
-npm run dev
+npm run dev.
 Open in your browser at http://localhost:5173/ (or the port shown in terminal).
  ```
 
