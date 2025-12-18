@@ -72,6 +72,7 @@ npm run dev
 Open in your browser at http://localhost:5173/ (or the port shown in terminal).
 
 
+---
 
 ## 💡 Key Learnings from This Project
 
