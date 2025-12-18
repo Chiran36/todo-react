@@ -29,31 +29,31 @@ This project allows users to **add, edit, delete, and manage tasks** with differ
 # Project Structure
 
 to-do_list/
-├── public/
-│ └── vite.svg
-├── src/
-│ ├── assets/
-│ │ └── react.svg
-│ ├── components/
-│ │ ├── Button.jsx
-│ │ ├── DisplayTask.jsx
-│ │ ├── EditingSection.jsx
-│ │ ├── Header.jsx
-│ │ ├── ListTask.jsx
-│ │ ├── Task.jsx
-│ │ └── TodoInput.jsx
-│ ├── App.css
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-├── eslint.config.js
-└── README.md
+public/
+vite.svg
+src/
+assets/
+react.svg
+components/
+Button.jsx
+DisplayTask.jsx
+EditingSection.jsx
+Header.jsx
+ListTask.jsx
+Task.jsx
+TodoInput.jsx
+App.css
+App.jsx
+index.css
+main.jsx
+.gitignore
+package.json
+package-lock.json
+vite.config.js
+tailwind.config.js
+postcss.config.js
+eslint.config.js
+README.md
 
 ---
 
