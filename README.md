@@ -52,12 +52,12 @@ todo-react/
 1. **Clone the repository**
 
 
-git clone https://github.com/YOUR_USERNAME/todo-react.git
+git clone https://github.com/Chiran36/todo-react.git
 Navigate to the project folder
 
 2. **Installing required dependencies in the project folder**
 
-
+ ```bash
 cd todo-react
 Install dependencies
 
@@ -70,7 +70,7 @@ npm install
 
 npm run dev
 Open in your browser at http://localhost:5173/ (or the port shown in terminal).
-
+ ```
 
 ---
 
