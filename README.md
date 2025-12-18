@@ -1,16 +1,92 @@
-# React + Vite
+# React To-Do App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional and interactive To-Do List application built with React.  
+This project allows users to **add, edit, delete, and manage tasks** with different priority levels, demonstrating modern React practices and clean state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Add new tasks with unique IDs
+- Edit existing tasks (task name and priority)
+- Delete tasks
+- Mark tasks as completed
+- Filter tasks: All, Active, Completed
+- Dynamic UI updates using React state
+- Priority indicators: High, Low, None
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- **React** (Functional Components + Hooks)
+- **JavaScript (ES6+)**
+- **CSS / Tailwind CSS** (for styling)
+- Focus on **immutability** and **state management best practices**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+todo-react/
+│
+├─ src/
+│ ├─ components/
+│ │ ├─ TodoInput.jsx
+│ │ ├─ DisplayTask.jsx
+│ │ ├─ Task.jsx
+│ │ └─ EditingSection.jsx
+│ │ └─ Button.jsx
+│ │ └─ ListTask.jsx
+│ │ └─ Header.jsx
+│ ├─ App.jsx
+│ └─ App.css
+├─ package.json
+├─ vite.config.js (if using Vite)
+└─ README.md
+
+
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+
+
+git clone https://github.com/YOUR_USERNAME/todo-react.git
+Navigate to the project folder
+
+2. **Installing required dependencies in the project folder**
+
+
+cd todo-react
+Install dependencies
+
+3. **Intalling npm**
+
+npm install
+
+
+4.**running the project**
+
+npm run dev
+Open in your browser at http://localhost:5173/ (or the port shown in terminal).
+
+💡 Key Learnings from This Project
+
+1. Arrow Functions & Object Return: ()=>{ ...obj } is treated as a block, not an object;
+   use parentheses: () => ({ ...obj })  for an object.
+
+2. Component-first Development: Build a static UI first before adding logic for easier workflow.
+
+3. State Management Best Practices:
+
+   i.Use useState in local components first, then lift state to parent only when necessary.
+
+   ii.Avoid calling a state setter (setState) inside another setState to prevent 
+      re-rendering   issues.
+
+   iii.Component Organization: Separate components into different files for clarity
+       and maintainability.
+
+   iv.Immutability in React: Always clone arrays and objects when updating state to follow React’s immutability rules.
+
